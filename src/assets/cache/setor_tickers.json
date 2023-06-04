@@ -1,5 +1,5 @@
 {
- "Bens_Industriais": [
+ "bensIndustriais": [
   "RZAT11.SA",
   "GRWA11.SA",
   "CRAA11.SA",
@@ -100,7 +100,7 @@
   "MODL11.SA",
   "BDLL3F.SA"
  ],
- "Consumo_C\u00edclico": [
+ "consumoCiclico": [
   "VIIA3.SA",
   "CEDO4F.SA",
   "NFLX34F.SA",
@@ -202,7 +202,7 @@
   "ESTR3.SA",
   "CTNM3.SA"
  ],
- "Consumo_n\u00e3o_C\u00edclico": [
+ "consumoNaoCiclico": [
   "PRVA3.SA",
   "WALM34F.SA",
   "SBUB34F.SA",
@@ -243,7 +243,7 @@
   "PCAR4.SA",
   "PCAR3.SA"
  ],
- "Financeiro": [
+ "financeiro": [
   "CSUD3.SA",
   "INBR31.SA",
   "STOC31.SA",
@@ -345,7 +345,7 @@
   "BRSR3.SA",
   "SANB11.SA"
  ],
- "Materiais_B\u00e1sicos": [
+ "materiaisBasicos": [
   "LAND3.SA",
   "DEXP4.SA",
   "RANI3F.SA",
@@ -394,7 +394,7 @@
   "UNIP3.SA",
   "KLBN11.SA"
  ],
- "Outros": [
+ "outros": [
   "RBIV11.SA",
   "CPLE11F.SA",
   "GTLG11.SA",
@@ -496,7 +496,7 @@
   "GETT3.SA",
   "CRPG3.SA"
  ],
- "Petr\u00f3leo,_G\u00e1s_e_Biocombust\u00edveis": [
+ "petroleoGaseBiocombustveis": [
   "VBBR3.SA",
   "RAIZ4.SA",
   "RECV3.SA",
@@ -526,7 +526,7 @@
   "PETR3F.SA",
   "PETR3.SA"
  ],
- "Sa\u00fade": [
+ "saude": [
   "ONCO3.SA",
   "VVEO3.SA",
   "PARD3.SA",
@@ -559,7 +559,7 @@
   "BALM4.SA",
   "BALM3.SA"
  ],
- "Tecnologia_da_Informa\u00e7\u00e3o": [
+ "tecnologiaDaInformao": [
   "CLSA3.SA",
   "LVTC3.SA",
   "G2DI33.SA",
@@ -594,7 +594,7 @@
   "LINX3.SA",
   "POSI3.SA"
  ],
- "Telecomunica\u00e7\u00f5es": [
+ "telecomunicacoes": [
   "BRIT3.SA",
   "FIQE3.SA",
   "DESK3.SA",
@@ -613,7 +613,7 @@
   "TELB3F.SA",
   "TELB3.SA"
  ],
- "Utilidade_P\u00fablica": [
+ "utilidadePublica": [
   "AURE3.SA",
   "MEGA3.SA",
   "CEPE6F.SA",
