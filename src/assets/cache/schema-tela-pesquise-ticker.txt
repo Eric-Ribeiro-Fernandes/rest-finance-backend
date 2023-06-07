@@ -1,0 +1,69 @@
+Quem sou eu ?
+    longName
+    country
+    website
+    industry
+    industryDisp
+    sector
+    fullTimeEmployees
+    longBusinessSummary
+ 
+Qual meu risco ?
+    auditRisk
+    boardRisk
+    compensationRisk
+    shareHolderRightsRisk
+    overallRisk
+
+Quanto pago de dividendos ?
+    dividendRate
+    dividendYield
+    exDividendDate
+    payoutRatio
+    fiveYearAvgDividendYield
+
+Qual a percepção do mercado em relação a mim ?
+    currentPrice
+    fiftyTwoWeekLow
+    fiftyTwoWeekHigh
+    fiftyDayAverage
+    twoHundredDayAverage
+    beta
+    volume
+    averageVolume
+    averageVolume10days
+    
+Quais as recomendações do mercado sobre mim ?
+    recommendationKey
+    numberOfAnalystOpinions
+    targetHighPrice
+    targetLowPrice
+    targetMeanPrice
+    targetMedianPrice
+
+Quais os meus principais números contábeis ? 
+    Valuation/Fundamentos gerais
+        enterpriseValue -> valor justo
+        bookValue -> ativos (valor contábil)
+        totalDebt -> passivos
+        revenuePerShare
+        earningsGrowth
+        revenueGrowth
+
+    Fluxo de caixa
+        totalCash
+        operatingCashflow
+        totalCashPerShare
+
+    ROA 
+        returnOnAssets
+
+    ROE
+        returnOnEquity
+
+    DRE    
+        totalRevenue -> Receita total
+        grossMargins -> margem bruta 
+        ebitdaMargins -> ebitda
+        profitMargins -> margem de lucro
+        grossProfits -> resultado bruto 
