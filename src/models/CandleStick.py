@@ -16,22 +16,20 @@ class CandleStick(Resource):
         df = _ticker.history( period= "2y")
         df = df.drop(df.tail(1).index)
         
-        fig = go.Figure(data=[go.Candlestick(x=df.index,
-                       open=df['Open'], high=df['High'],
-                       low=df['Low'], close=df['Close'] )], layout= go.Layout(plot_bgcolor="#332E33", paper_bgcolor = 'whitesmoke'))
         cf.set_config_file(theme='henanigans')
+        
+        # Criando figura quant
         qf = cf.QuantFig(df=df, title= "Preço nos últimos 2 anos", name = 'Ativo')
         qf.add_bollinger_bands()
+        qf.add_rsi()        
         qf.add_volume()
         
+            # Valores fixos representam dias úteis no ano
+        qf.add_resistance(str(df[-200:-21][df[-200:-21]['Close'] == df[-200:-21]['Close'].max()].index[0]), on= 'close')
+        qf.add_support(str(df[-200:-21][df[-200:-21]['Close'] == df[-200:-21]['Close'].min()].index[0]), on= 'low')  
+        
+        # Transforma em figura plotly
         qf_figure = qf.figure()
-        qf_figure.update_layout(plot_bgcolor="#332E33")
-        qf_figure.update_layout(paper_bgcolor = '#332E33')
         
-        
-        
-        
-        
-        fig.to_plotly_json()
         
         return (qf_figure.to_json())
