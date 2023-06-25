@@ -16,7 +16,7 @@ class CandleStick(Resource):
         df = _ticker.history( period= "2y")
         df = df.drop(df.tail(1).index)
         
-        cf.set_config_file(theme='henanigans')
+        cf.set_config_file(theme='white')
         
         # Criando figura quant
         qf = cf.QuantFig(df=df, title= "Preço nos últimos 2 anos", name = 'Ativo')

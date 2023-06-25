@@ -9,4 +9,4 @@ class HistoricoCotacaoBovespa(Resource):
     def get(self):
         _ticker = web.Ticker('^BVSP')
         
-        return _ticker.history(period="3mo").rename(columns = {'Stock Splits': 'StocksSplits'} ).to_json(orient='table')
+        return _ticker.history(period="3mo")["Close"].to_json(orient="split")

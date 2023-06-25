@@ -14,7 +14,7 @@ echo 'Instalando bibliotecas necessárias...'
 pip3 install -r ./requirements.txt
 
 echo ''
-echo 'TODAS AS BIBLIOTECAS INSTADAS'
+echo 'TODAS AS BIBLIOTECAS INSTALADAS'
 echo ''
 
 
