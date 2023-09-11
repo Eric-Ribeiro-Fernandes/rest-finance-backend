@@ -8,4 +8,4 @@ class InfoAtivo(Resource):
     @cross_origin(supports_credentials=True)
     def get(self, ticker):
         _ticker = web.Ticker(ticker + ".SA")
-        return _ticker.info
+        return dict(_ticker.fast_info)

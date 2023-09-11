@@ -13,13 +13,13 @@ class CandleStick(Resource):
         _ticker = web.Ticker(ticker + ".SA")
         
         
-        df = _ticker.history( period= "2y")
+        df = _ticker.history( period= "3mo")
         df = df.drop(df.tail(1).index)
         
         cf.set_config_file(theme='white')
         
         # Criando figura quant
-        qf = cf.QuantFig(df=df, title= "Preço nos últimos 2 anos", name = 'Ativo')
+        qf = cf.QuantFig(df=df, title= "Preço nos últimos 3 meses", name = 'Ativo')
         qf.add_bollinger_bands()
         qf.add_rsi()        
         qf.add_volume()
